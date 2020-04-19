@@ -12,3 +12,12 @@
 @import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import '~@fortawesome/fontawesome-free/scss/solid.scss';
 @import '~@fortawesome/fontawesome-free/scss/brands.scss';
+
+
+.router-link-exact-active{
+    background-color: #3fff0096;
+    color: white !important;
+}
+.red{
+  color: red;
+}

@@ -30024,3 +30024,12 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+.router-link-exact-active {
+  background-color: #3fff0096;
+  color: white !important;
+}
+
+.red {
+  color: red;
+}
+
