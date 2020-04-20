@@ -25,6 +25,15 @@ window.Swal = Swal
 
 window.something = new Vue();
 
+const swalWithBootstrapButtons = Swal.mixin({
+    customClass: {
+        confirmButton: 'btn btn-success',
+        cancelButton: 'btn btn-danger'
+    },
+    buttonsStyling: false
+})
+window.swalWithBootstrapButtons = swalWithBootstrapButtons
+
 const Toast = Swal.mixin({
     toast: true,
     position: 'top-end',
